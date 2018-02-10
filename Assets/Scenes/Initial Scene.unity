@@ -272,16 +272,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Inventory:
-  - Coal
-  - Sticks
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &704838490
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,12 +656,12 @@ GameObject:
   - component: {fileID: 1849846603}
   - component: {fileID: 1849846602}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: InventoryBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1849846602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -670,9 +670,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1849846601}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6f82203de2e5354eb4a54b3eb12f0ad, type: 3}
+  m_Script: {fileID: 11500000, guid: cf288f4d9c90b894b91e3dee77003f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Inventory:
+  - {fileID: 11400000, guid: 7fb8b7dca6c95b644b6c325781319644, type: 2}
+  - {fileID: 11400000, guid: af3288d673876ef46b4b47002065d9dd, type: 2}
 --- !u!23 &1849846603
 MeshRenderer:
   m_ObjectHideFlags: 0
