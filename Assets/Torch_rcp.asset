@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Torch_rcp
   m_EditorClassIdentifier: 
   Requirements:
-  - {fileID: 11400000, guid: 7fb8b7dca6c95b644b6c325781319644, type: 2}
   - {fileID: 11400000, guid: af3288d673876ef46b4b47002065d9dd, type: 2}
+  - {fileID: 11400000, guid: 7fb8b7dca6c95b644b6c325781319644, type: 2}
   Result: {fileID: 11400000, guid: 7fb8b7dca6c95b644b6c325781319644, type: 2}
   HasComponents: 0
