@@ -15,10 +15,26 @@ public class recipeCreator : ScriptableObject {
 	{
 		
 	}
-	public void CheckComponents ()
+	public void  CheckComponents ()
 	{
-		var component0 = AssetDatabase.FindAssets(Requirements[0].name);
-		var component1 = AssetDatabase.FindAssets(Requirements[0].name);
+
+		for(int I = 0; I < Requirements.Length; I++)
+		{
+			if(Inventory.instance.components[I] == Requirements[I])
+			{
+				HasComponents = true;
+			}
+
+			else 
+			{
+				HasComponents = false;
+			}
+		}
+
+		//if (Inventory.instance.components.Contains(Requirements[0]) && Inventory.instance.components.Contains(Requirements[1]))
+		//{
+			//HasComponents = true;
+		//}
 	}
 
 }
